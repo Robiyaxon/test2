@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css"; // Create a CSS file for custom styling
-
+//salom dunyo
 const App = () => {
   const initialQuestions = [
     {
