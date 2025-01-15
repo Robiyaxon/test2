@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import "./App.css"; // Create a CSS file for custom styling
-import New from "./New";
-//salom dunyo
+import React from 'react'
+import New from './New'
+import "./App.css"
 const App = () => {
- 
   return (
-  <div>
-    <New/>
-  </div>
-  );
-};
+    <div>
+      <New/>
+    </div>
+  )
+}
 
-export default App;
+export default App
