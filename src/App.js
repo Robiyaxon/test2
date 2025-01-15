@@ -44,6 +44,8 @@ const App = () => {
       ],
       correctAnswer: "MainActivity.java",
     },
+
+    
     {
       question: "Birinchi telefon kitobi qachon paydo bo’lgan?",
       options: [
