@@ -1,0 +1,157 @@
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.questionnaire {
+  margin-top: 20px;
+}
+
+.question-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.question-text {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-label {
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  text-align: center;
+}
+
+.results-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 1.2rem;
+}
+
+.detailed-results {
+  margin-top: 20px;
+}
+
+.result-card {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+}
+
+.result-question {
+  font-weight: bold;
+}
+
+.correct-answer {
+  color: green;
+}
+
+.your-answer {
+  color: red;
+}
+
+.restart-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.restart-button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 10px;
+  }
+
+  .question-card {
+    padding: 10px;
+  }
+
+  .submit-button,
+  .restart-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .results-title {
+    font-size: 1.2rem;
+  }
+
+  .score {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .question-card {
+    padding: 8px;
+  }
+
+  .submit-button,
+  .restart-button {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .results-title {
+    font-size: 1rem;
+  }
+
+  .score {
+    font-size: 0.9rem;
+  }
+}
